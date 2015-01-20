@@ -78,3 +78,7 @@
       background-color: darken($smoke-color, 5%);
   }
 } // end .pagination
+
+.active {
+  color: $active !important;
+}

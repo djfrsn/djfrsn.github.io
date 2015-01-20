@@ -1,15 +1,16 @@
 // Colors
 
-$main-color:        mediumslateblue;  // change this color for further customization 
-                                      // I like http://colours.neilorangepeel.com/! Making colors semantic too ;)
+$main-color:        steelblue;  // change this color for further customization 
+$secondary-color:   lawngreen;                                      // I like http://colours.neilorangepeel.com/! Making colors semantic too
 
 $bg-color:          white; // background-color
 
+$title-color:       mediumslateblue; 
 $text-color:        #333; 
 $link-color:        $main-color; 
 $border-color:      #e0e1e6;
 $smoke-color:       #fafafa;
-
+$active: 	          $secondary-color;
 
 // Typography 
 
