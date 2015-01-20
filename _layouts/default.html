@@ -35,7 +35,10 @@
           <li><a target="_blank" href="http://twitter.com/{{ site.twitter }}">Twitter</a></li>
           {% endif %}
           {% if site.github %}
-          <li><a target="_blank" href="https://github.com/djfrsn">Github</a></li>
+          <li><a target="_blank" href="https://github.com/{{ site.github }}">Github</a></li>
+          {% endif %}
+          {% if site.stackoverflow %}
+          <li><a target="_blank" href="http://stackoverflow.com/users/796813/{{ site.stackoverflow }}">Stackoverflow</a></li>
           {% endif %}
         </ul>
       </nav>
@@ -56,7 +59,7 @@
       </main>
 
       <footer>
-        <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.author }}</small>
+        <small>Powered by Jekyll &nbsp;∆&nbsp; {{ site.author }}</small>
       </footer>
 
     </div> 
